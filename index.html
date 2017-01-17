@@ -9,18 +9,20 @@
       font-family: Menlo, Monaco, "Courier New", Courier, monospace;
       justify-content: center;
     }
-    main {
-      float: right;
+    .blinking {
+      animation: blinker 0.5s linear infinite;
+    }
+    @keyframes blinker {  
+      50% { opacity: 0; }
     }
   </style>
 </head>
 <body>
   <main>
-    <p>&#62;_  Hello,</p>
-    <p>Welcomes you here. My name is Ihor and I am a Software developer.</p>
+    <p>&#62;<span class="blinking">_</span> <span style="float: right;">Ihor Pavlenko</span> </p>
+    <br>
+    <p>Hello! Welcomes you here. My name is Ihor and I am a Software developer.</p>
     <p>You can find me at: <a href="https://www.linkedin.com/in/ihorpavlenko">LinkedIn</a> and <a href="https://github.com/my8bit">Github</a></p>
-    <p>See you there.</p>
-    <p>Best wishes and good luck!</p>
   </main>
 </body>
 </html>
