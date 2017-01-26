@@ -1,28 +1,95 @@
+<!DOCTYPE HTML>
+<!--
+	Astral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style type="text/css">
-    body {
-      display: flex;
-      font-family: Menlo, Monaco, "Courier New", Courier, monospace;
-      justify-content: center;
-    }
-    .blinking {
-      animation: blinker 0.5s linear infinite;
-    }
-    @keyframes blinker {  
-      50% { opacity: 0; }
-    }
-  </style>
-</head>
-<body>
-  <main>
-    <p>&#62;<span class="blinking">_</span> <span style="float: right;">Ihor Pavlenko</span> </p>
-    <br>
-    <p>Hello! My name is Ihor and I'm a Front-end developer.</p>
-    <p>You can find me on <a href="https://www.linkedin.com/in/ihorpavlenko">LinkedIn</a> and <a href="https://github.com/my8bit">Github</a></p>
-  </main>
-</body>
+	<head>
+		<title>Astral by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Wrapper-->
+			<div id="wrapper">
+
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="#me" class="icon fa-home active"><span>Home</span></a>
+						<a href="https://github.com/my8bit" class="icon fa-github"><span>Github</span></a>
+						<a href="https://www.linkedin.com/in/ihorpavlenko" class="icon fa-linkedin"><span>LinkedIn</span></a>
+						<a href="https://telegram.me/my8bit" class="icon fa-telegram"><span>Telegram</span></a>
+						<a href="#contact" class="icon fa-envelope"><span>Contact</span></a>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Me -->
+							<article id="me" class="panel">
+								<header>
+									<h1>Ihor Pavlenko</h1>
+									<p>Front-end developer</p>
+								</header>
+								<a href="https://github.com/my8bit" class="jumplink pic">
+									<img src="https://avatars3.githubusercontent.com/u/782268?v=3&s=400" alt="" />
+								</a>
+							</article>
+
+						<!-- Contact -->
+							<article id="contact" class="panel">
+								<form action="/" netlify-honeypot="filter" netlify name="contactme" method="post">
+									<div>
+										<div class="row">
+											<div style="display: none;">
+												<input name="filter" />
+											</div>
+											<div class="6u 12u$(mobile)">
+												<input type="text" name="name" placeholder="Name" />
+											</div>
+											<div class="6u$ 12u$(mobile)">
+												<input type="text" name="email" placeholder="Email" />
+											</div>
+											<div class="12u$">
+												<input type="text" name="subject" placeholder="Subject" />
+											</div>
+											<div class="12u$">
+												<textarea name="message" placeholder="Message" rows="4"></textarea>
+											</div>
+											<div class="12u$">
+												<input type="submit" value="Send Message" />
+											</div>
+										</div>
+									</div>
+								</form>
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<div id="footer">
+						<ul class="copyright">
+							<li>&copy; @my8bit</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
