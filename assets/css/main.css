@@ -748,12 +748,8 @@
 /* Basic */
 
 	body {
-		/*
-		background-image: url("https://www.wired.com/wp-content/uploads/2015/11/animation-128-nodither.jpg");
-		background-repeat: no-repeat;
-		background-size: auto, 100% 100%;*/
 		background-size: contain;
-		background-color: rgb(25, 145, 207);
+		background-color: #1991cf;
 		font-family: 'Share Tech Mono', monospace;
 		font-weight: 300;
 		color: #777777;
