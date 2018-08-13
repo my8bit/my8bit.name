@@ -749,7 +749,7 @@
 
 	body {
 		background-size: contain;
-		background-color: #1991cf;
+		background: url("https://www.toptal.com/designers/subtlepatterns/patterns/escheresque_ste.png");
 		font-family: 'Share Tech Mono', monospace;
 		font-weight: 300;
 		color: #777777;
