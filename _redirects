@@ -1,5 +1,5 @@
 # Redirect domain aliases to primary domain
-https://pavlenko.nl/* https://my8bit.name/:splat 301!
+https://my8bit.name/* https://pavlenko.nl/:splat 301!
 
 # Optional: Redirect default Netlify subdomain to primary domain
-https://my8bit-dot-name.netlify.com/* https://my8bit.name/:splat 301!
+https://my8bit-dot-name.netlify.com/* https://pavlenko.nl/:splat 301!
